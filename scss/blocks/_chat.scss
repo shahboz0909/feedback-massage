@@ -124,6 +124,14 @@ color: #000000;
         line-height: 18px;
         letter-spacing: -0.03em;
         color: #000000;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0px;
+          right: -8px;
+          @include triangle-up(10px, #FFC2C1)
+        }
         }
 
 .input {
