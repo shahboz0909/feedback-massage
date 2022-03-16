@@ -1,0 +1,155 @@
+.chat {
+  margin-left: 30px;
+margin-top: 40px;
+position: relative;
+width: 270px;
+height: 56px;
+background: #E6EDF6;
+border-radius: 3px;
+}
+.chat-text {
+  position: relative;
+padding: 9px 63px 11px 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.03em;
+color: #000000;
+
+&::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  @include triangle-up(10px, #E6EDF6)
+}
+}
+
+
+.chat::before {
+  content: '10:53';
+  position: absolute;
+  top: -18px;
+  color: #DDDDDD;
+  font-size: 12px;
+}
+
+.chat2{
+margin-top: 40px;
+margin-left: 101px;
+position: relative;
+width: 270px;
+height: 56px;
+background: #E6EDF6;
+border-radius: 3px;
+}
+.chat2::before{
+  content: '10:57';
+  position: absolute;
+  top: -18px;
+  right: 0;
+  color: #DDDDDD;
+  font-size: 12px;
+}
+.chat-text2 {
+padding: 9px 17px 11px 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.03em;
+color: #000000;
+
+&::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -8px;
+  @include triangle-up(10px, #E6EDF6)
+}
+
+}
+
+
+.chat3{
+  margin-top: 40px;
+  margin-left: 30px;
+  position: relative;
+  width: 89px;
+  height: 36px;
+  background: #E6EDF6;
+  border-radius: 3px;
+  }
+  .chat3::before {
+    content: '11:03';
+    position: absolute;
+    top: -18px;
+    color: #DDDDDD;
+    font-size: 12px;
+  }
+  .chat-text3 {
+    padding: 9px 10px 11px 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #000000;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: -8px;
+      @include triangle-up(10px, #E6EDF6)
+    }
+
+    }
+
+    .chat4{
+      margin-top: 20px;
+      margin-left: 183px;
+      position: relative;
+      width: 193px;
+      height: 38px;
+      background: #FFC2C1;
+      border-radius: 3px;
+      }
+      .chat-text4 {
+        padding: 9px 10px 11px 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.03em;
+        color: #000000;
+        }
+
+.input {
+width: 390px;
+height: 45px;
+background: #FFFFFF;
+border: 1px solid #DDDDDD;
+box-sizing: border-box;
+border-radius: 54px;
+outline: none;
+padding-left: 20px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 30px;
+}
+
+.button {
+position: relative;
+top: -41px;
+right: -303px;
+width: 87px;
+height: 37px;
+background-color: #6A96D8;
+border-radius: 100px;
+border: none;
+color: white;
+cursor: pointer;
+}
